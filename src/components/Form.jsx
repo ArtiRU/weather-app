@@ -56,7 +56,11 @@ export const Form = (props) => {
                     type="text"
                     className="validate"
                 />
-                <label htmlFor="weather" className="active">
+                <label
+                    htmlFor="weather"
+                    style={{ fontSize: "20px", color: "#ffffff" }}
+                    className="active"
+                >
                     Введите название города
                 </label>
                 <div className="mt-2">
